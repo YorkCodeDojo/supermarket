@@ -1,0 +1,3 @@
+ALTER TABLE basket
+ADD CustomerId VARCHAR(100) NOT NULL
+;

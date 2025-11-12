@@ -1,0 +1,5 @@
+CREATE TABLE Basket (
+    Id INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    ProductId INT NOT NULL
+    CONSTRAINT FK_Basket_Product FOREIGN KEY (ProductId) REFERENCES Product(Id)
+)
